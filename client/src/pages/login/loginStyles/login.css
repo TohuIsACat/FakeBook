@@ -1,0 +1,151 @@
+.login {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f0f2f5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.login .loginWrapper {
+  width: 70%;
+  height: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.login .loginWrapper .loginLeft,
+.login .loginWrapper .loginRight {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.login .loginWrapper .loginLeft .loginLogo,
+.login .loginWrapper .loginRight .loginLogo {
+  font-size: 50px;
+  font-weight: 800;
+  color: #1775ee;
+  margin-bottom: 10px;
+}
+
+.login .loginWrapper .loginLeft .loginDesc,
+.login .loginWrapper .loginRight .loginDesc {
+  font-size: 16px;
+}
+
+.login .loginWrapper .loginLeft .loginBox,
+.login .loginWrapper .loginRight .loginBox {
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+}
+
+.login .loginWrapper .loginLeft .loginBox .registerSucessMessage,
+.login .loginWrapper .loginRight .loginBox .registerSucessMessage {
+  font-size: 16px;
+  color: #23b923;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.login .loginWrapper .loginLeft .loginBox .loginInput,
+.login .loginWrapper .loginRight .loginBox .loginInput {
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid gray;
+  font-size: 18px;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.login .loginWrapper .loginLeft .loginBox .loginInput:focus,
+.login .loginWrapper .loginRight .loginBox .loginInput:focus {
+  outline: none;
+}
+
+.login .loginWrapper .loginLeft .loginBox .showPasswordIcon,
+.login .loginWrapper .loginRight .loginBox .showPasswordIcon {
+  position: absolute;
+  top: 110px;
+  right: 40px;
+  cursor: pointer;
+}
+
+.login .loginWrapper .loginLeft .loginBox .errorMessage,
+.login .loginWrapper .loginRight .loginBox .errorMessage {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #c83232;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.login .loginWrapper .loginLeft .loginBox .loginButton,
+.login .loginWrapper .loginRight .loginBox .loginButton {
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  background-color: #1775ee;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.login .loginWrapper .loginLeft .loginBox .loginButton:disabled,
+.login .loginWrapper .loginRight .loginBox .loginButton:disabled {
+  cursor: not-allowed;
+}
+
+.login .loginWrapper .loginLeft .loginBox .loginForgot,
+.login .loginWrapper .loginRight .loginBox .loginForgot {
+  text-align: center;
+  cursor: pointer;
+  color: #1775ee;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.login .loginWrapper .loginLeft .loginBox .loginRegisterButton,
+.login .loginWrapper .loginRight .loginBox .loginRegisterButton {
+  width: 60%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  background-color: #42b72a;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+/*# sourceMappingURL=login.css.map */

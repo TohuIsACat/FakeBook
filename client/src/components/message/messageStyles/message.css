@@ -1,0 +1,69 @@
+.message {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 20px;
+}
+
+.message .messageTop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.message .messageTop .messageAvatar {
+  margin-right: 10px;
+}
+
+.message .messageTop .messageText {
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #1877f2;
+  color: white;
+  max-width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.message .messageTop .messageText .messageImg {
+  margin-bottom: 10px;
+  width: 200px;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.message .messageBottom {
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.message.own {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.message.own .messageAvatar {
+  display: none;
+}
+
+.message.own .messageText {
+  background-color: #f3f3f3;
+  color: black;
+  margin-right: 10px;
+}
+
+.message.own .messageBottom {
+  margin-right: 5px;
+}
+/*# sourceMappingURL=message.css.map */

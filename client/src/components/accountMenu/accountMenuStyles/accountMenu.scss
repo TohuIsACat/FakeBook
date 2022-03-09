@@ -1,0 +1,13 @@
+.accountMenuContainer {
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    .accountMenuAvatar {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        object-fit: cover;
+        cursor: pointer;
+    }
+}

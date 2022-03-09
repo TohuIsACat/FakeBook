@@ -1,0 +1,202 @@
+.messenger {
+  height: calc(100vh - 70px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.messenger .chatMenu {
+  -webkit-box-flex: 3.5;
+      -ms-flex: 3.5;
+          flex: 3.5;
+  overflow-y: scroll;
+}
+
+.messenger .chatMenu .chatMenuInput {
+  width: 90%;
+  padding: 10px 0;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+.messenger .chatMenu .chatMenuInput:focus {
+  outline: none;
+}
+
+.messenger .chatMenu .messengerSearchListContainer {
+  -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+          box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+}
+
+.messenger .chatMenu .messengerSearchListContainer .messengerSearchList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fcfcfc;
+}
+
+.messenger .chatMenu .messengerSearchListContainer .messengerSearchList:hover {
+  background-color: #e7e7e7;
+}
+
+.messenger .chatMenu .messengerSearchListContainer .messengerSearchList .resultImg {
+  margin: 10px;
+}
+
+.messenger .chatBox {
+  -webkit-box-flex: 5.5;
+      -ms-flex: 5.5;
+          flex: 5.5;
+}
+
+.messenger .chatBox .chatBoxWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  padding: 10px;
+  height: 100%;
+}
+
+.messenger .chatBox .chatBoxWrapper .chatTitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #1877f2;
+  padding: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.messenger .chatBox .chatBoxWrapper .chatTitle .chatTitleUsername {
+  font-size: 28px;
+  color: white;
+}
+
+.messenger .chatBox .chatBoxWrapper .chatBoxTop {
+  height: 100%;
+  overflow-y: scroll;
+  padding-right: 10px;
+}
+
+.messenger .chatBox .chatBoxWrapper .chatBoxTop .viewImgContainer {
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0;
+  height: 160px;
+  width: 190px;
+  background-color: rgba(0, 0, 0, 0.35);
+}
+
+.messenger .chatBox .chatBoxWrapper .chatBoxTop .viewImgContainer .imgClose {
+  position: absolute;
+  top: 0;
+  cursor: pointer;
+}
+
+.messenger .chatBox .chatBoxWrapper .chatBoxTop .viewImgContainer .viewImg {
+  width: 150px;
+  height: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: 5px;
+}
+
+.messenger .chatBox .chatBoxWrapper .chatBoxBottom {
+  margin: 5px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #f3f3f3;
+  padding: 5px;
+}
+
+.messenger .chatBox .chatBoxWrapper .chatBoxBottom .chatMessageInput {
+  width: 80%;
+  height: 90px;
+  padding: 10px;
+  resize: none;
+  border: none;
+  font-size: 1.25rem;
+}
+
+.messenger .chatBox .chatBoxWrapper .chatBoxBottom .chatMessageInput:focus {
+  outline: none;
+}
+
+.messenger .chatBox .chatBoxWrapper .chatBoxBottom .fileIcon {
+  cursor: pointer;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  margin-right: 5px;
+  color: gray;
+}
+
+.messenger .chatBox .chatBoxWrapper .chatBoxBottom .chatSubmitButton {
+  width: 70px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: teal;
+  color: white;
+}
+
+.messenger .chatBox .chatBoxWrapper .noConversationText {
+  position: absolute;
+  top: 10%;
+  font-size: 41px;
+  color: #dbdbdb;
+  cursor: default;
+}
+
+.messenger .chatBox .chatBoxWrapper .chatTitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.messenger .chatBox .chatBoxWrapper .chatTitle .chatCloseBtn {
+  font-size: 32px;
+  cursor: pointer;
+  color: #f3f3f3;
+}
+
+.messenger .chatOnline {
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+}
+
+.messenger .chatOnline .chatOnlineWrapper {
+  overflow-y: scroll;
+}
+
+.chatMenuWrapper,
+.chatOnlineWrapper {
+  padding: 10px;
+  height: 100%;
+}
+/*# sourceMappingURL=messenger.css.map */

@@ -1,0 +1,108 @@
+.post {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, .68);
+    margin: 30px 0;
+
+    .postWrapper {
+        padding: 10px;
+
+        .postTop {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .postTopLeft {
+                display: flex;
+                align-items: center;
+
+                .postUsername {
+                    font-size: 18px;
+                    font-weight: 500;
+                    margin: 0 10px;
+                }
+
+                .postDate {
+                    font-size: 12px;
+                }
+            }
+        }
+
+        .postCenter {
+            margin: 20px 0;
+
+            .postImg {
+                margin-top: 20px;
+                width: 100%;
+                max-height: 500px;
+                object-fit: contain;
+            }
+        }
+
+        .postBottom {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .postBottomLeft {
+                display: flex;
+                align-items: center;
+
+                .likeIcon,
+                .likedIcon {
+                    color: red
+                }
+
+                .likedIcon {
+                    color: red;
+                }
+
+                .postLikeCounter {
+                    margin-left: 5px;
+                    font-size: 15px;
+                }
+            }
+
+            .postBottomRight {
+                display: flex;
+                align-items: center;
+
+
+                .sortIcon {
+                    margin-right: 10px;
+                    cursor: pointer;
+                }
+
+                .postCommentText {
+                    cursor: pointer;
+                    font-weight: 400;
+                    font-size: 15px;
+                }
+            }
+
+        }
+
+        .postComment {
+            .postCommentTop {
+                margin-top: 10px;
+                margin-bottom: 10px;
+                display: flex;
+
+                .commentInput {
+                    background-color: rgb(235, 235, 235);
+                    border: none;
+                    width: 90%;
+                    margin-left: 10px;
+                    border-radius: 30px;
+                    padding: 5px 10px;
+                    font-size: 16px;
+
+                    &:focus {
+                        outline: none;
+                    }
+                }
+            }
+
+        }
+    }
+}

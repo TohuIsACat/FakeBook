@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,cAAc,CAAC;EACX,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;EACnB,aAAa,EAAE,IAAI;CAKtB;;AARD,AAKI,cALU,CAKV,kBAAkB,CAAC;EACf,WAAW,EAAE,IAAI;CACpB",
+    "sources": [
+        "closeFriend.scss"
+    ],
+    "names": [],
+    "file": "closeFriend.css"
+}

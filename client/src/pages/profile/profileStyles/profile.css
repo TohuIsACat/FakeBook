@@ -1,0 +1,242 @@
+.profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.profile .profileRight {
+  -webkit-box-flex: 9;
+      -ms-flex: 9;
+          flex: 9;
+}
+
+.profile .profileRight .profileRightTop .profileCover {
+  height: 320px;
+  position: relative;
+}
+
+.profile .profileRight .profileRightTop .profileCover .profileCoverImg {
+  width: 100%;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.profile .profileRight .profileRightTop .profileCover .editCoverImg {
+  width: 100%;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.profile .profileRight .profileRightTop .profileCover .editCoverButton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 10px;
+  width: 200px;
+  height: 40px;
+  background-color: #d6d6d6;
+  position: absolute;
+  right: 30px;
+  bottom: 75px;
+}
+
+.profile .profileRight .profileRightTop .profileCover .coverSaveButton,
+.profile .profileRight .profileRightTop .profileCover .coverCancelButton {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.profile .profileRight .profileRightTop .profileCover .coverSaveButton .editCoverSave,
+.profile .profileRight .profileRightTop .profileCover .coverSaveButton .editCoverCancel,
+.profile .profileRight .profileRightTop .profileCover .coverCancelButton .editCoverSave,
+.profile .profileRight .profileRightTop .profileCover .coverCancelButton .editCoverCancel {
+  margin-right: 5px;
+}
+
+.profile .profileRight .profileRightTop .profileCover .coverSaveButton .editCoverSave,
+.profile .profileRight .profileRightTop .profileCover .coverCancelButton .editCoverSave {
+  color: green;
+}
+
+.profile .profileRight .profileRightTop .profileCover .coverSaveButton .editCoverCancel,
+.profile .profileRight .profileRightTop .profileCover .coverCancelButton .editCoverCancel {
+  color: red;
+}
+
+.profile .profileRight .profileRightTop .profileCover .coverSaveButton .coverSaveText,
+.profile .profileRight .profileRightTop .profileCover .coverSaveButton .coverCancelText,
+.profile .profileRight .profileRightTop .profileCover .coverCancelButton .coverSaveText,
+.profile .profileRight .profileRightTop .profileCover .coverCancelButton .coverCancelText {
+  font-weight: 400;
+}
+
+.profile .profileRight .profileRightTop .profileCover .coverButton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 10px;
+  width: 180px;
+  height: 40px;
+  background-color: #d6d6d6;
+  position: absolute;
+  right: 30px;
+  bottom: 75px;
+  cursor: pointer;
+}
+
+.profile .profileRight .profileRightTop .profileCover .coverButton .coverButtonImg {
+  color: black;
+  cursor: pointer;
+}
+
+.profile .profileRight .profileRightTop .profileCover .coverButton .coverButtonText {
+  color: black;
+  font-weight: 500;
+}
+
+.profile .profileRight .profileRightTop .profileCover .profileUserImg {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 150px;
+  border: 3px solid white;
+}
+
+.profile .profileRight .profileRightTop .profileCover .photoButton {
+  width: 40px;
+  height: 40px;
+  background-color: #d6d6d6;
+  position: absolute;
+  right: 500px;
+}
+
+.profile .profileRight .profileRightTop .profileCover .photoButton .photoButtonImg {
+  color: black;
+  cursor: pointer;
+}
+
+.profile .profileRight .profileRightTop .profileCover .editProfileImgContainer .editProfileImg {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 150px;
+  border: 3px solid white;
+}
+
+.profile .profileRight .profileRightTop .profileCover .editProfileImgContainer .editProfileImgCancelImg {
+  position: absolute;
+  right: 480px;
+  bottom: 8px;
+  font-size: 2rem;
+  cursor: pointer;
+  color: red;
+}
+
+.profile .profileRight .profileRightTop .profileCover .editProfileImgContainer .editProfileImgCheckImg {
+  position: absolute;
+  right: 640px;
+  bottom: 8px;
+  font-size: 2rem;
+  cursor: pointer;
+  color: green;
+}
+
+.profile .profileRight .profileRightTop .profileInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.profile .profileRight .profileRightTop .profileInfo .profileInfoName {
+  font-size: 30px;
+}
+
+.profile .profileRight .profileRightTop .profileInfo .profileDescContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+.profile .profileRight .profileRightTop .profileInfo .profileDescContainer .profileInfoDesc {
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.profile .profileRight .profileRightTop .profileInfo .profileDescContainer .descEdit {
+  font-size: 16px;
+  position: absolute;
+  right: -25px;
+  top: 0;
+  cursor: pointer;
+}
+
+.profile .profileRight .profileRightTop .profileInfo .profileDescContainer .descInput {
+  border: none;
+  border-bottom: 1px solid black;
+  font-size: 16px;
+  width: 200px;
+}
+
+.profile .profileRight .profileRightTop .profileInfo .profileDescContainer .descInput:focus {
+  outline: none;
+}
+
+.profile .profileRight .profileRightTop .profileInfo .profileDescContainer .descIcon {
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.profile .profileRight .profileRightBottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=profile.css.map */

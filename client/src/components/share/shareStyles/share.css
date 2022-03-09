@@ -1,0 +1,113 @@
+.share {
+  width: 100%;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+          box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+}
+
+.share .shareWrapper {
+  padding: 10px;
+}
+
+.share .shareWrapper .shareTop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.share .shareWrapper .shareTop .shareProfileImg {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-right: 10px;
+}
+
+.share .shareWrapper .shareTop .shareInput {
+  border: none;
+  width: 80%;
+}
+
+.share .shareWrapper .shareTop .shareInput:focus {
+  outline: none;
+}
+
+.share .shareWrapper .shareHr {
+  margin: 20px;
+}
+
+.share .shareWrapper .shareBottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.share .shareWrapper .shareBottom .shareOptions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 20px;
+}
+
+.share .shareWrapper .shareBottom .shareOptions .shareOption {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 8px 12px;
+  cursor: pointer;
+}
+
+.share .shareWrapper .shareBottom .shareOptions .shareOption .shareIcon {
+  font-size: 34px;
+  margin-right: 3px;
+}
+
+.share .shareWrapper .shareBottom .shareOptions .shareOption .shareOptionText {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.share .shareWrapper .shareBottom .shareButton {
+  font-size: 16px;
+  border: none;
+  padding: 8px;
+  border-radius: 5px;
+  background-color: green;
+  font-weight: 500;
+  margin-right: 20px;
+  cursor: pointer;
+  color: white;
+}
+
+.share .shareWrapper .shareImgContainer {
+  padding: 0 20px 10px 20px;
+  position: relative;
+}
+
+.share .shareWrapper .shareImgContainer .shareImg {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.share .shareWrapper .shareImgContainer .shareCancelImg {
+  position: absolute;
+  top: 0;
+  right: 20px;
+  cursor: pointer;
+  opacity: .7;
+}
+/*# sourceMappingURL=share.css.map */

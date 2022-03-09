@@ -1,0 +1,63 @@
+.notificationList {
+  background-color: #fdfdfd;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 250px;
+  padding: 5px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.notificationList:hover {
+  background-color: #dadada;
+}
+
+.notificationList .notificationImg {
+  margin-right: 5px;
+}
+
+.notificationList .notification {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 200px;
+}
+
+.notificationList .notification .notificationEmpty {
+  color: gray;
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.notificationList .notification .notificationMain {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.notificationList .notification .notificationMain .notificationDelete {
+  color: gray;
+  cursor: pointer;
+}
+
+.notificationList .notification .notificationMain .notificationText {
+  color: black;
+  margin-bottom: 5px;
+}
+
+.notificationList .notification .notificationDate {
+  color: gray;
+  font-size: 6px;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+/*# sourceMappingURL=notificationList.css.map */

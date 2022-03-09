@@ -1,0 +1,217 @@
+.topbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 998;
+}
+
+.topbar .topbarContainer {
+  height: 60px;
+  width: 100%;
+  background-color: #1877f2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 998;
+}
+
+.topbar .topbarContainer .topbarLeft {
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+}
+
+.topbar .topbarContainer .topbarLeft .logo {
+  font-size: 24px;
+  margin-left: 20px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+
+.topbar .topbarContainer .topbarCenter {
+  -webkit-box-flex: 5;
+      -ms-flex: 5;
+          flex: 5;
+}
+
+.topbar .topbarContainer .topbarCenter .searchbar {
+  width: 100%;
+  height: 30px;
+  background-color: white;
+  border-radius: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.topbar .topbarContainer .topbarCenter .searchbar .searchList {
+  background-color: #fdfdfd;
+  position: absolute;
+  top: 30px;
+  left: 25px;
+  width: 350px;
+  max-height: 250px;
+  overflow-y: scroll;
+  z-index: 999;
+  -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+          box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+  border-radius: 10px;
+}
+
+.topbar .topbarContainer .topbarCenter .searchbar .searchList .searchResult {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.topbar .topbarContainer .topbarCenter .searchbar .searchList .searchResult:hover {
+  background-color: #dadada;
+}
+
+.topbar .topbarContainer .topbarCenter .searchbar .searchList .searchResult .searchResultImg {
+  margin-left: 10px;
+}
+
+.topbar .topbarContainer .topbarCenter .searchbar .searchList .searchResult .searchResultText {
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.topbar .topbarContainer .topbarCenter .searchbar .searchIcon {
+  font-size: 20px !important;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.topbar .topbarContainer .topbarCenter .searchbar .searchInput {
+  border: none;
+  width: 70%;
+}
+
+.topbar .topbarContainer .topbarCenter .searchbar .searchInput:focus {
+  outline: none;
+}
+
+.topbar .topbarContainer .topbarRight {
+  -webkit-box-flex: 4;
+      -ms-flex: 4;
+          flex: 4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  color: white;
+}
+
+.topbar .topbarContainer .topbarRight .topbarLink {
+  margin-right: 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.topbar .topbarContainer .topbarRight .topbarIcons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.topbar .topbarContainer .topbarRight .topbarIcons .notificationListWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: absolute;
+  top: 32px;
+  right: -50px;
+  max-height: 350px;
+  overflow-y: scroll;
+  z-index: 999;
+  border-radius: 10px;
+  -webkit-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.39);
+          box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.39);
+}
+
+.topbar .topbarContainer .topbarRight .topbarIcons .open.topbarIconItem {
+  color: #1877f2;
+  background-color: #fdfdfd;
+  border-radius: 10px;
+}
+
+.topbar .topbarContainer .topbarRight .topbarIcons .topbarIconItem {
+  margin-right: 15px;
+  cursor: pointer;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.topbar .topbarContainer .topbarRight .topbarIcons .topbarIconItem:hover {
+  color: #1877f2;
+  background-color: #fdfdfd;
+  border-radius: 10px;
+}
+
+.topbar .topbarContainer .topbarRight .topbarIcons .topbarIconItem .topbarIconBadge {
+  width: 20px;
+  right: 20px;
+  background-color: red;
+  border-radius: 50%;
+  color: white;
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 16px;
+}
+/*# sourceMappingURL=topbar.css.map */

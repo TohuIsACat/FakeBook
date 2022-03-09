@@ -1,0 +1,167 @@
+.topbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 998;
+
+
+    .topbarContainer {
+        height: 60px;
+        width: 100%;
+        background-color: #1877f2;
+        display: flex;
+        align-items: center;
+        position: sticky;
+        top: 0;
+        z-index: 998;
+
+        .topbarLeft {
+            flex: 3;
+
+            .logo {
+                font-size: 24px;
+                margin-left: 20px;
+                font-weight: bold;
+                color: white;
+                cursor: pointer;
+            }
+        }
+
+        .topbarCenter {
+            flex: 5;
+
+            .searchbar {
+                width: 100%;
+                height: 30px;
+                background-color: white;
+                border-radius: 30px;
+                display: flex;
+                align-items: center;
+                position: relative;
+
+
+                .searchList {
+                    background-color: rgb(253, 253, 253);
+                    position: absolute;
+                    top: 30px;
+                    left: 25px;
+                    width: 350px;
+                    max-height: 250px;
+                    overflow-y: scroll;
+                    z-index: 999;
+                    box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, .68);
+                    border-radius: 10px;
+
+                    .searchResult {
+                        display: flex;
+                        align-items: center;
+                        padding: 5px;
+                        cursor: pointer;
+
+                        &:hover {
+                            background-color: rgb(218, 218, 218);
+                        }
+
+                        .searchResultImg {
+                            margin-left: 10px;
+                        }
+
+                        .searchResultText {
+                            margin-left: 10px;
+                            font-size: 20px;
+                        }
+                    }
+
+                }
+
+                .searchIcon {
+                    font-size: 20px !important;
+                    margin-left: 10px;
+                    cursor: pointer;
+                }
+
+                .searchInput {
+                    border: none;
+                    width: 70%;
+
+                    &:focus {
+                        outline: none;
+                    }
+                }
+            }
+        }
+
+        .topbarRight {
+            flex: 4;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            color: white;
+
+            .topbarLink {
+                margin-right: 10px;
+                font-size: 14px;
+                cursor: pointer;
+            }
+
+            .topbarIcons {
+                display: flex;
+                position: relative;
+
+                .notificationListWrapper {
+                    display: flex;
+                    flex-direction: column;
+                    position: absolute;
+                    top: 32px;
+                    right: -50px;
+                    max-height: 350px;
+                    overflow-y: scroll;
+                    z-index: 999;
+                    border-radius: 10px;
+                    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.39);
+                }
+
+                .open.topbarIconItem {
+                    color: #1877f2;
+                    background-color: rgb(253, 253, 253);
+                    border-radius: 10px;
+                }
+
+                .topbarIconItem {
+                    margin-right: 15px;
+                    cursor: pointer;
+                    position: relative;
+                    width: 40px;
+                    height: 40px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+
+                    &:hover {
+                        color: #1877f2;
+                        background-color: rgb(253, 253, 253);
+                        border-radius: 10px;
+                    }
+
+                    .topbarIconBadge {
+                        width: 20px;
+                        right: 20px;
+                        background-color: red;
+                        border-radius: 50%;
+                        color: white;
+                        position: absolute;
+                        top: -2px;
+                        right: -2px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+}

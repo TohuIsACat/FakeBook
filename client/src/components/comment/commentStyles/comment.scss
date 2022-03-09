@@ -1,0 +1,31 @@
+.commentWrapper {
+    margin-top: 10px;
+    display: flex;
+    max-width: 90%;
+
+    .commentAvatar {
+        margin-right: 10px;
+    }
+
+    .commentTextContainer {
+        display: flex;
+        flex-direction: column;
+        padding: 10px 15px;
+        background-color: rgb(223, 223, 223);
+        border-radius: 30px;
+        margin-left: 10px;
+
+
+        .commentUsername {
+            font-weight: 500;
+            margin-bottom: 2px;
+        }
+    }
+
+    .commentDate {
+        font-size: 8px;
+        margin-left: 10px;
+        align-self: flex-end;
+        color: rgb(63, 63, 63);
+    }
+}

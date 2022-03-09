@@ -1,0 +1,132 @@
+.post {
+  width: 100%;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+          box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+  margin: 30px 0;
+}
+
+.post .postWrapper {
+  padding: 10px;
+}
+
+.post .postWrapper .postTop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.post .postWrapper .postTop .postTopLeft {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.post .postWrapper .postTop .postTopLeft .postUsername {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0 10px;
+}
+
+.post .postWrapper .postTop .postTopLeft .postDate {
+  font-size: 12px;
+}
+
+.post .postWrapper .postCenter {
+  margin: 20px 0;
+}
+
+.post .postWrapper .postCenter .postImg {
+  margin-top: 20px;
+  width: 100%;
+  max-height: 500px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.post .postWrapper .postBottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.post .postWrapper .postBottom .postBottomLeft {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.post .postWrapper .postBottom .postBottomLeft .likeIcon,
+.post .postWrapper .postBottom .postBottomLeft .likedIcon {
+  color: red;
+}
+
+.post .postWrapper .postBottom .postBottomLeft .likedIcon {
+  color: red;
+}
+
+.post .postWrapper .postBottom .postBottomLeft .postLikeCounter {
+  margin-left: 5px;
+  font-size: 15px;
+}
+
+.post .postWrapper .postBottom .postBottomRight {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.post .postWrapper .postBottom .postBottomRight .sortIcon {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.post .postWrapper .postBottom .postBottomRight .postCommentText {
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.post .postWrapper .postComment .postCommentTop {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.post .postWrapper .postComment .postCommentTop .commentInput {
+  background-color: #ebebeb;
+  border: none;
+  width: 90%;
+  margin-left: 10px;
+  border-radius: 30px;
+  padding: 5px 10px;
+  font-size: 16px;
+}
+
+.post .postWrapper .postComment .postCommentTop .commentInput:focus {
+  outline: none;
+}
+/*# sourceMappingURL=post.css.map */

@@ -22,6 +22,7 @@
 8. 即時通知 (已讀未讀)
 9. 即時聊天 (文字和圖片)
 ####  更詳細可至我的個人網站觀看demo
+[PortfolioWebsite](https://solonlin.netlify.app/)
 ### 3-2 細部說明
 1. 大致分為三部分: Client, Resutful Api, Socket
 2. Cilent為前端UI的呈現，與APi串聯
@@ -40,3 +41,5 @@
 2. 利用cache來增進效能
 3. 將context改為Redux或React Query
 4. 更改排序和計算部分的算法 (如close friend, birthday)
+5. RWD
+6. 帳號驗證
